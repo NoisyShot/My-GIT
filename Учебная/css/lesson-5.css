@@ -1,0 +1,189 @@
+/*Урок 5-1*/
+.block {
+   height: 100px;
+   width: 100px;
+   border: 1px solid #000;
+   /* display: inline-block; В основном используется для стилизации строчных элементов, а именно придание им высоты и ширины*/
+   display: inline;
+}
+
+.block-1 {
+   /* visibility: hidden; позволяет не отбразать элемент на странице */
+   /* display: none; полностью скрывает элемент на странице */
+}
+
+
+
+/*Урок 5-2*/
+
+.header {
+   height: 100px;
+   border: 1px solid #000;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 40px;
+   padding-right: 60px;
+}
+
+.menu {
+   list-style-type: none;
+   display: flex;
+   justify-content: space-around;
+}
+
+.logo {
+   width: 35px;
+   height: 25px;
+   background-color: darkred;
+}
+
+.contant-2 {
+   display: flex;
+   justify-content: space-around;
+   /*Распределение элементов по горизонатли (flex start- к левой границе) (flex end-к правой границе) (center - центр) (space-around-равномерное распредение по горизонтали) (space-between - равное растояние между блоками)  */
+
+   /* height: 200px;
+   background-color: #ccc;
+   align-items: center; */
+
+   /*Центрирование по вертикали (flex start- к левой границе) (flex end-к правой границе) (stretch - вытягивание элементов по вертикали)*/
+}
+
+.block {
+   width: 100px;
+   height: 150px;
+   border: 1px solid #000;
+}
+
+
+
+/*Урок 5-3*/
+.contant3 {
+   display: flex;
+   /* flex-wrap: wrap; */
+   /* Перенос блоков */
+   /* justify-content: space-around; */
+   /* flex-direction: column; */
+   /*выставить элементы в колонку т.е. перевели их из горизонтальной плоскости в вериткальную*/
+   justify-content: space-around;
+   height: 500px;
+}
+
+.block3-2 {
+   align-self: center;
+}
+
+.block3-3 {
+   align-self: flex-end;
+}
+
+.block3 {
+   height: 150px;
+   width: 200px;
+   border: 1px solid #000;
+}
+
+
+/*Урок 5-4*/
+.container {
+   max-width: 750px;
+   margin: 0 auto;
+}
+
+.content4 {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+/* .block4 {
+   height: 100px;
+   border: 1px solid #000;
+   width: 50px; */
+/* flex-grow: 1; */
+/* Определяет размерное отношение блоков друг к другу*/
+
+
+
+/* .block4-1 {
+   flex-grow: 1;
+   order: 1;
+}
+
+.block4-2 {
+   order: 0;
+} */
+.text {
+   flex-grow: 1;
+   flex-basis: 200px;
+   border: 1px solid #000;
+}
+
+
+
+/*Урок 5-5*/
+.container5 {
+   max-width: 400px;
+   margin: 0 auto;
+}
+
+.header5 {
+   border: 1px solid #000;
+   height: 150px;
+   position: relative;
+}
+
+.logo5 {
+   width: 35px;
+   height: 35px;
+   background-color: red;
+   position: absolute;
+   top: 50px;
+   left: 60px;
+}
+
+.block5 {
+   width: 150px;
+   height: 150px;
+   border: 1px solid #000;
+   float: left;
+   position: absolute;
+   /* position: absolute; Абсолютное позиционирование блока. Относительно Верхнего-левого угла браузера*/
+   /* position: relative Относительно позиционирование блока. Относительно его Текущего расположения*/
+   top: 150px;
+   left: 250px;
+}
+
+.contant5 {
+   position: relative;
+}
+
+.contant5:hover .item5-2 {
+   z-index: 1;
+   display: block;
+}
+
+.item5 {
+   width: 100px;
+   height: 100px;
+   background-color: red;
+   position: absolute;
+}
+
+.item5-2 {
+   background-color: aqua;
+   display: none;
+}
+
+.blok {
+   height: 350px;
+   border: 1px solid #000;
+   position: relative;
+}
+
+.etem {
+   height: 50px;
+   background-color: #ccc;
+   position: sticky;
+   top: 0;
+}

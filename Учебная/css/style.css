@@ -1,0 +1,82 @@
+/* текстовый коментарий*/
+a:link {
+    color: aqua;
+}
+
+a:visited {
+    color: red;
+}
+
+a:link:hover {
+    background-color: aqua;
+}
+
+a:visited:hover {
+    background-color: chartreuse;
+}
+
+li:first-child {
+    background-color: aqua;
+}
+
+li:nth-child(3n) {
+    font-size: 25px;
+}
+
+.parent:hover .child {
+    color: aqua;
+}
+
+li:after {
+    content: "NEW";
+    color: red;
+}
+
+form input {
+    width: 250px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+label {
+    width: 300px;
+    font-size: 34px;
+    display: inline-block;
+}
+
+form input:focus {
+    background-color: aquamarine;
+}
+
+table {
+    border: 3px solid red;
+    margin-top: 35px;
+    margin: 25px auto;
+    width: 70%;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid blue;
+    margin-top: 35px;
+}
+
+td:hover,
+th:hover {
+    background-color: rgba(129, 242, 16, 0.48);
+}
+
+.myblock1,
+.myblock2 {
+    border: 20px solid red;
+    height: 150px;
+    width: 150px;
+    margin: 20px auto;
+    background-color: aqua;
+}
+
+.myblock1:hover {
+    background-color: #358b8b;
+    border-color: transparent;
+}

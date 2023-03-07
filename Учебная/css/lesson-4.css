@@ -1,0 +1,136 @@
+.header {
+   background-color: gray;
+}
+
+.footer {
+   background-color: rgb(87, 84, 84);
+}
+
+.text-red {
+   color: red;
+}
+
+/* Урок 4-2*/
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+.block {
+   border: 1px solid black;
+   width: 350px;
+   height: 250px;
+   margin-left: 50px;
+   margin-top: 20px;
+   padding: 16px;
+   box-sizing: border-box;
+   /*Этот параметр "железно" закрепляет параметры высоты и ширины блока 
+   
+   Схлопавание - границы одного элемента накладываются на границы другого (положение элементов не меняется)
+   */
+   margin-bottom: 50px;
+}
+
+.heading {
+   margin-top: 50px;
+}
+
+/* Урок 4-3*/
+
+.block-1 {
+   width: 150px;
+   height: 150px;
+   border: 1px solid black;
+   float: left;
+}
+
+.heading-1 {
+   border: 1px solid red;
+   overflow: hidden;
+   /* этот параметр скрывает перекрытие блоков друг другом */
+}
+
+.block-2 {
+   height: 50px;
+   background-color: gray;
+   clear: both;
+   /*этот параметр это параметр не позволяет блоку наезжать на другой блок */
+}
+
+/*Урок 4-4*/
+
+.menu_list-4 {
+   list-style-type: none;
+   border: 1px solid #000;
+   width: 200px;
+   height: 35px;
+   text-align: center;
+   line-height: 35px;
+   /* line-height если в этом теге указать тоже значение что и выстота строки, то текст отцентрируется по высоте. РАБОТАЕТ ТОЛЬКО ДЛЯ ОДНО СТРОКИ! */
+}
+
+.menu .menu_link-4:hover {
+   color: red;
+}
+
+.menu_link-4:active {
+   color: green;
+}
+
+.menu_list-4:first-child {
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+
+
+}
+
+.menu_list-4:last-child {
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+
+}
+
+.menu_list-4:hover .menu_link-4 {
+   text-decoration: none;
+}
+
+/*Урок 4-5*/
+
+/* .menu_li-new::after {
+   content: "Super NEW!";
+} */
+.menu_li:nth-child(2)::after {
+   content: "Super NEW!";
+}
+
+.menu_li:hover::after {
+   content: "<<";
+}
+
+.product {
+   width: 250px;
+   border: 1px solid #000;
+}
+
+.product_img {
+   height: 150px;
+   background-color: forestgreen;
+}
+
+.product_new::after {
+   content: "NEW";
+   text-transform: uppercase;
+   color: red;
+}
+
+.menu_li:before {
+   content: "* ";
+   color: aqua;
+}
+
+.text::first-letter {
+   color: red;
+   font-size: 24px;
+}
+
+/*Урок -6*/

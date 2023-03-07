@@ -1,0 +1,233 @@
+* {
+    padding: 0px;
+    margin: 0px auto;
+    box-sizing: border-box;
+    font-family: GothamProBold, Arial, sans-serif;
+}
+
+body {
+    font-size: 14px;
+    /* color: rgba(255, 255, 255, 0.6); */
+    position: relative;
+}
+
+a {
+    color: rgba(87, 85, 85, 0.6);
+    text-decoration: none;
+}
+
+.header {
+    background-color: white;
+    width: 100%;
+    box-shadow: 0 5px 5px -5px #000;
+    position: sticky;
+    top: 0;
+}
+
+.wrapper {
+    max-width: 1270px;
+    padding: 0 10px;
+    margin: 0 auto;
+
+}
+
+.header {
+    align-items: center;
+    height: 35px;
+    justify-content: space-between;
+}
+
+.menu-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.header .logo {
+    display: block;
+    float: left;
+}
+
+.header .logo img {
+    width: 63px;
+    height: 32px;
+    background-size: cover;
+}
+
+
+.product_container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.product_item {
+    box-shadow: 0px 8px 32px rgb(0 0 0 / 15%);
+    position: relative;
+    margin: 0 30px 38px 0;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.product_item img {
+    height: 200px;
+    width: 150px;
+}
+
+
+
+/*FOOTER*/
+
+.footer {
+    background-color: #000;
+    float: left;
+    width: 100%;
+    padding: 0 0 20px 0;
+}
+
+.footer_menu {
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #fff;
+    padding: 20px 0 22px;
+    font-family: GothamProBold, Arial, sans-serif;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer_wrapper {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.footer_list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+}
+
+.footer_list-item a {
+    color: rgba(255, 255, 255, 0.6);
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.footer_list-item:hover {
+    text-decoration: underline;
+}
+
+.footer_txt {
+    width: 100%;
+    float: left;
+}
+
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer_logo {
+    width: 130px;
+    padding: 24px 0 0;
+    float: left;
+}
+
+.footer_logo a {
+    display: block;
+    width: 121px;
+    height: 76px;
+    background: url(https://static.insales-cdn.com/assets/1/1064/3499048/1675176543/logo-footer.svg) top left no-repeat;
+    background-size: cover;
+}
+
+.footer_subhead {
+    font-family: GothamProBold, Arial, sans-serif;
+    color: #fff;
+    font-size: 17px;
+    padding: 26px 0 10px;
+    text-transform: uppercase;
+}
+
+.footer_contacts .footer_link {
+    text-decoration: none;
+}
+
+.footer p {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 13px;
+}
+
+.footer-copyright-txt {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer_link {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    display: block;
+    padding-bottom: 8px;
+    text-decoration: underline;
+
+}
+
+.payment-icons {
+    max-width: 210px;
+}
+
+.footer_payment a {
+    margin-right: 20px;
+    margin-top: 10px;
+    display: block;
+    float: left;
+}
+
+.payment-icons-visa {
+    width: 42px;
+    height: 13px;
+    background: url(https://static.insales-cdn.com/assets/1/1064/3499048/1675176543/visa.svg) top left no-repeat;
+}
+
+.payment-icons-mir {
+    width: 47px;
+    height: 12px;
+    background: url(https://static.insales-cdn.com/assets/1/1064/3499048/1675176543/mir.svg) top left no-repeat;
+}
+
+.payment-icons-master {
+    width: 29px;
+    height: 22px;
+    background: url(https://static.insales-cdn.com/assets/1/1064/3499048/1675176543/master.svg) top left no-repeat;
+}
+
+.payment-icons-google {
+    width: 45px;
+    height: 18px;
+    background: url(https://static.insales-cdn.com/assets/1/1064/3499048/1675176543/yapay.png) top left no-repeat;
+}
+
+.socials_icons a {
+    width: 26px;
+    height: 26px;
+    display: block;
+    float: left;
+    margin-right: 17px;
+    background-size: 26px;
+    margin-top: 5px;
+    filter: grayscale(100%);
+}
+
+.footer_VK {
+    background: url(https://static.insales-cdn.com/assets/1/1064/3499048/1675176543/vk.svg) top left no-repeat;
+}
+
+.footer_telegram {
+    background: url(https://static.insales-cdn.com/assets/1/1064/3499048/1675176543/telegram_logo.svg) top left no-repeat;
+}
